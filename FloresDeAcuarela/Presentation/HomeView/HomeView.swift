@@ -14,7 +14,7 @@ struct HomeView: View {
                              name: "Histórico",
                              systemImage: .history)
             
-            TabItemComponent(view: BudgetView(),
+            TabItemComponent(view: BudgetWireframe.createView(),
                              name: "Presupuesto",
                              systemImage: .presupuesto)
             

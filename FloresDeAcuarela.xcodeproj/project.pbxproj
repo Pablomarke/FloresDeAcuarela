@@ -20,6 +20,8 @@
 		39DCA6262C185B9A00A5A62B /* TabItemComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA6252C185B9A00A5A62B /* TabItemComponent.swift */; };
 		39DCA62C2C185FE500A5A62B /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA62B2C185FE500A5A62B /* BudgetView.swift */; };
 		39DCA62F2C18609700A5A62B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA62E2C18609700A5A62B /* HistoryView.swift */; };
+		39DCA6312C186B1200A5A62B /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA6302C186B1200A5A62B /* BudgetViewModel.swift */; };
+		39DCA6332C186B4E00A5A62B /* BudgetWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA6322C186B4E00A5A62B /* BudgetWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		39DCA6252C185B9A00A5A62B /* TabItemComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemComponent.swift; sourceTree = "<group>"; };
 		39DCA62B2C185FE500A5A62B /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
 		39DCA62E2C18609700A5A62B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		39DCA6302C186B1200A5A62B /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
+		39DCA6322C186B4E00A5A62B /* BudgetWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetWireframe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				39DCA62B2C185FE500A5A62B /* BudgetView.swift */,
+				39DCA6302C186B1200A5A62B /* BudgetViewModel.swift */,
+				39DCA6322C186B4E00A5A62B /* BudgetWireframe.swift */,
 			);
 			path = BudgetView;
 			sourceTree = "<group>";
@@ -342,9 +348,11 @@
 				39B510062C123AB500019F5B /* Persistence.swift in Sources */,
 				39DCA62F2C18609700A5A62B /* HistoryView.swift in Sources */,
 				39DCA6262C185B9A00A5A62B /* TabItemComponent.swift in Sources */,
+				39DCA6332C186B4E00A5A62B /* BudgetWireframe.swift in Sources */,
 				39B50FFD2C123AB200019F5B /* FloresDeAcuarelaApp.swift in Sources */,
 				39B510322C12449800019F5B /* WebView.swift in Sources */,
 				39DCA62C2C185FE500A5A62B /* BudgetView.swift in Sources */,
+				39DCA6312C186B1200A5A62B /* BudgetViewModel.swift in Sources */,
 				39B510302C123C7500019F5B /* HomeView.swift in Sources */,
 				39B510092C123AB500019F5B /* FloresDeAcuarela.xcdatamodeld in Sources */,
 			);

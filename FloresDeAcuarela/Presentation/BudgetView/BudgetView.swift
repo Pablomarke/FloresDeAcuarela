@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct BudgetView: View {
+    @ObservedObject var viewmodel: BudgetViewModel
+    
     var body: some View {
         Text("presupuesto")
     }
 }
 
 #Preview {
-    BudgetView()
+    BudgetWireframe.createView()
 }
