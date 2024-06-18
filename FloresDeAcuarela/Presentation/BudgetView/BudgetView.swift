@@ -10,21 +10,20 @@ import SwiftUI
 struct BudgetView: View {
     @StateObject var viewmodel: BudgetViewModel
     @State private var isShowingItemSelector = false
-
+    
     var body: some View {
         VStack {
             HeaderView(title: "Presupuesto")
             Spacer()
-                VStack {
-                    List(viewmodel.items) { item in
-                        ObjectPriceView(object: item)
-    
-                    }
-                    Button("Añadir") {
-                        self.isShowingItemSelector = true
-                        //viewmodel.addItem()
-                    }
-                    .padding()
+            VStack {
+                List(viewmodel.items) { item in
+                    ObjectPriceView(object: item)
+                    
+                }
+                Button("Añadir") {
+                    self.isShowingItemSelector = true
+                }
+                .padding()
             }
             Spacer()
             HStack {
@@ -35,7 +34,8 @@ struct BudgetView: View {
         }
         .sheet(isPresented: $isShowingItemSelector,
                content: {
-            ItemSelectorView(viewModel: viewmodel)        })
+            ItemSelectorView(viewModel: viewmodel)
+        })
     }
 }
 

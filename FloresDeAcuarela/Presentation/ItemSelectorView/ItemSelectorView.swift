@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct ItemSelectorView: View {
-     var viewModel: BudgetViewModel
+   @ObservedObject var viewModel: BudgetViewModel
     
     var body: some View {
-        Text("Hello, i´m item selector")
+        TextField("name",
+                  text: $viewModel.itemName)
+        TextField("price",
+                  text: $viewModel.itemPrice)
         
         Button("Añadir") {
             viewModel.addItem()
         }
     }
 }
-
 
 struct ItemSelectorView_Previews: PreviewProvider {
     static var previews: some View {
