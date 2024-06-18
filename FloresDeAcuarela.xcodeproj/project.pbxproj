@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		396735592C21E662004E4F15 /* FlowerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396735582C21E662004E4F15 /* FlowerItem.swift */; };
+		3967355C2C21F1A5004E4F15 /* ItemSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967355B2C21F1A5004E4F15 /* ItemSelectorView.swift */; };
+		3967355E2C21F2F5004E4F15 /* ItemSelectorWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967355D2C21F2F5004E4F15 /* ItemSelectorWireframe.swift */; };
 		39B50FFD2C123AB200019F5B /* FloresDeAcuarelaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B50FFC2C123AB200019F5B /* FloresDeAcuarelaApp.swift */; };
 		39B510012C123AB500019F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B510002C123AB500019F5B /* Assets.xcassets */; };
 		39B510042C123AB500019F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B510032C123AB500019F5B /* Preview Assets.xcassets */; };
@@ -47,6 +49,8 @@
 
 /* Begin PBXFileReference section */
 		396735582C21E662004E4F15 /* FlowerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerItem.swift; sourceTree = "<group>"; };
+		3967355B2C21F1A5004E4F15 /* ItemSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSelectorView.swift; sourceTree = "<group>"; };
+		3967355D2C21F2F5004E4F15 /* ItemSelectorWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSelectorWireframe.swift; sourceTree = "<group>"; };
 		39B50FF92C123AB200019F5B /* FloresDeAcuarela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloresDeAcuarela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B50FFC2C123AB200019F5B /* FloresDeAcuarelaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloresDeAcuarelaApp.swift; sourceTree = "<group>"; };
 		39B510002C123AB500019F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3967355A2C21EFC9004E4F15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				396735582C21E662004E4F15 /* FlowerItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3967355F2C21F3A8004E4F15 /* ItemSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				3967355B2C21F1A5004E4F15 /* ItemSelectorView.swift */,
+				3967355D2C21F2F5004E4F15 /* ItemSelectorWireframe.swift */,
+			);
+			path = ItemSelectorView;
+			sourceTree = "<group>";
+		};
 		39B50FF02C123AB200019F5B = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +180,7 @@
 				39DCA6242C185B7700A5A62B /* HomeView */,
 				39DCA6272C185DE700A5A62B /* WebView */,
 				39DCA62A2C185E0F00A5A62B /* BudgetView */,
+				3967355F2C21F3A8004E4F15 /* ItemSelectorView */,
 				39DCA62D2C18607C00A5A62B /* HistoryView */,
 			);
 			path = Presentation;
@@ -175,8 +197,8 @@
 		39B5102D2C123AE400019F5B /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				3967355A2C21EFC9004E4F15 /* Models */,
 				39B5102E2C123B0F00019F5B /* Local */,
-				396735582C21E662004E4F15 /* FlowerItem.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -373,12 +395,14 @@
 				39B50FFD2C123AB200019F5B /* FloresDeAcuarelaApp.swift in Sources */,
 				39FCAD302C18B88C0057CB41 /* ResultView.swift in Sources */,
 				39B510322C12449800019F5B /* WebView.swift in Sources */,
+				3967355E2C21F2F5004E4F15 /* ItemSelectorWireframe.swift in Sources */,
 				39DCA62C2C185FE500A5A62B /* BudgetView.swift in Sources */,
 				39FCAD2E2C18B6C20057CB41 /* HeaderView.swift in Sources */,
 				396735592C21E662004E4F15 /* FlowerItem.swift in Sources */,
 				39DCA6312C186B1200A5A62B /* BudgetViewModel.swift in Sources */,
 				39B510302C123C7500019F5B /* HomeView.swift in Sources */,
 				39B510092C123AB500019F5B /* FloresDeAcuarela.xcdatamodeld in Sources */,
+				3967355C2C21F1A5004E4F15 /* ItemSelectorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

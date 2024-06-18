@@ -9,7 +9,8 @@ import SwiftUI
 
 struct BudgetView: View {
     @ObservedObject var viewmodel: BudgetViewModel
-    
+    @State private var isShowingItemSelector = false
+
     var body: some View {
         VStack {
             HeaderView(title: "Presupuesto")
@@ -20,7 +21,8 @@ struct BudgetView: View {
     
                     }
                     Button("Añadir") {
-                        viewmodel.addItem()
+                        self.isShowingItemSelector = true
+                        //viewmodel.addItem()
                     }
                     .padding()
             }
@@ -31,6 +33,10 @@ struct BudgetView: View {
             }
             ResultView(total: viewmodel.total)
         }
+        .sheet(isPresented: $isShowingItemSelector,
+               content: {
+            ItemSelectorWireframe.createView()
+        })
     }
 }
 
