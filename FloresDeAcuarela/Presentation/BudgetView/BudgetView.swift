@@ -11,7 +11,26 @@ struct BudgetView: View {
     @ObservedObject var viewmodel: BudgetViewModel
     
     var body: some View {
-        Text("presupuesto")
+        VStack {
+            HeaderView(title: "Presupuesto")
+            Spacer()
+                VStack {
+                    List(viewmodel.items) { item in
+                        ObjectPriceView(object: item)
+    
+                    }
+                    Button("Añadir") {
+                        viewmodel.addItem()
+                    }
+                    .padding()
+            }
+            Spacer()
+            HStack {
+                Text("Descuento")
+                Text("0,00 %")
+            }
+            ResultView(total: viewmodel.total)
+        }
     }
 }
 
