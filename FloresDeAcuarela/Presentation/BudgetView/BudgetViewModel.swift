@@ -15,6 +15,8 @@ final class BudgetViewModel: ObservableObject {
         items.append(FlowerItem(name: "Florero 1",
                                 price: 22.00))
         self.total =  self.calculateTotal()
+        print(items.count)
+
     }
 }
 

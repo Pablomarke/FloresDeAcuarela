@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BudgetView: View {
-    @ObservedObject var viewmodel: BudgetViewModel
+    @StateObject var viewmodel: BudgetViewModel
     @State private var isShowingItemSelector = false
 
     var body: some View {
@@ -35,8 +35,7 @@ struct BudgetView: View {
         }
         .sheet(isPresented: $isShowingItemSelector,
                content: {
-            ItemSelectorWireframe.createView()
-        })
+            ItemSelectorView(viewModel: viewmodel)        })
     }
 }
 
