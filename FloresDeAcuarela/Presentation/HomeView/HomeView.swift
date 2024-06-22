@@ -18,7 +18,7 @@ struct HomeView: View {
                              name: "Presupuesto",
                              systemImage: .presupuesto)
             
-            TabItemComponent(view: WebView(),
+            TabItemComponent(view: WebViewWireframe.createView(),
                              name: "Web",
                              systemImage: .web)
         }

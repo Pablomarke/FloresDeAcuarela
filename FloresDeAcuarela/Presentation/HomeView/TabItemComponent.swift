@@ -28,7 +28,7 @@ struct TabItemComponent <Content: View>: View  {
 }
 
 #Preview {
-    TabItemComponent(view: WebView(),
+    TabItemComponent(view: WebViewWireframe.createView(),
                      name: "Web",
                      systemImage: .web)
 }

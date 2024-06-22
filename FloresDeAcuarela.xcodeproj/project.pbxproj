@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		396735592C21E662004E4F15 /* FlowerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396735582C21E662004E4F15 /* FlowerItem.swift */; };
 		3967355C2C21F1A5004E4F15 /* ItemSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967355B2C21F1A5004E4F15 /* ItemSelectorView.swift */; };
+		398E0A552C26C890000179C1 /* WebViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A542C26C890000179C1 /* WebViewer.swift */; };
+		398E0A572C26C97C000179C1 /* WebViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A562C26C97C000179C1 /* WebViewViewModel.swift */; };
+		398E0A592C26C9F9000179C1 /* WebViewWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A582C26C9F9000179C1 /* WebViewWireframe.swift */; };
 		39B50FFD2C123AB200019F5B /* FloresDeAcuarelaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B50FFC2C123AB200019F5B /* FloresDeAcuarelaApp.swift */; };
 		39B510012C123AB500019F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B510002C123AB500019F5B /* Assets.xcassets */; };
 		39B510042C123AB500019F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B510032C123AB500019F5B /* Preview Assets.xcassets */; };
@@ -49,6 +52,9 @@
 /* Begin PBXFileReference section */
 		396735582C21E662004E4F15 /* FlowerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerItem.swift; sourceTree = "<group>"; };
 		3967355B2C21F1A5004E4F15 /* ItemSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSelectorView.swift; sourceTree = "<group>"; };
+		398E0A542C26C890000179C1 /* WebViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewer.swift; sourceTree = "<group>"; };
+		398E0A562C26C97C000179C1 /* WebViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewModel.swift; sourceTree = "<group>"; };
+		398E0A582C26C9F9000179C1 /* WebViewWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewWireframe.swift; sourceTree = "<group>"; };
 		39B50FF92C123AB200019F5B /* FloresDeAcuarela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloresDeAcuarela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B50FFC2C123AB200019F5B /* FloresDeAcuarelaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloresDeAcuarelaApp.swift; sourceTree = "<group>"; };
 		39B510002C123AB500019F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -222,6 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				39B510312C12449800019F5B /* WebView.swift */,
+				398E0A562C26C97C000179C1 /* WebViewViewModel.swift */,
+				398E0A582C26C9F9000179C1 /* WebViewWireframe.swift */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -250,6 +258,7 @@
 				39FCAD2D2C18B6C20057CB41 /* HeaderView.swift */,
 				39FCAD2F2C18B88C0057CB41 /* ResultView.swift */,
 				39FCAD312C18BB400057CB41 /* ObjectPriceView.swift */,
+				398E0A542C26C890000179C1 /* WebViewer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -392,8 +401,11 @@
 				39B50FFD2C123AB200019F5B /* FloresDeAcuarelaApp.swift in Sources */,
 				39FCAD302C18B88C0057CB41 /* ResultView.swift in Sources */,
 				39B510322C12449800019F5B /* WebView.swift in Sources */,
+				398E0A592C26C9F9000179C1 /* WebViewWireframe.swift in Sources */,
 				39DCA62C2C185FE500A5A62B /* BudgetView.swift in Sources */,
 				39FCAD2E2C18B6C20057CB41 /* HeaderView.swift in Sources */,
+				398E0A572C26C97C000179C1 /* WebViewViewModel.swift in Sources */,
+				398E0A552C26C890000179C1 /* WebViewer.swift in Sources */,
 				396735592C21E662004E4F15 /* FlowerItem.swift in Sources */,
 				39DCA6312C186B1200A5A62B /* BudgetViewModel.swift in Sources */,
 				39B510302C123C7500019F5B /* HomeView.swift in Sources */,
