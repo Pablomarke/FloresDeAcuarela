@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396735592C21E662004E4F15 /* FlowerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396735582C21E662004E4F15 /* FlowerItem.swift */; };
+		3967355C2C21F1A5004E4F15 /* ItemSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967355B2C21F1A5004E4F15 /* ItemSelectorView.swift */; };
+		398E0A552C26C890000179C1 /* WebViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A542C26C890000179C1 /* WebViewer.swift */; };
+		398E0A572C26C97C000179C1 /* WebViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A562C26C97C000179C1 /* WebViewViewModel.swift */; };
+		398E0A592C26C9F9000179C1 /* WebViewWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A582C26C9F9000179C1 /* WebViewWireframe.swift */; };
+		39B50FFD2C123AB200019F5B /* FloresDeAcuarelaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B50FFC2C123AB200019F5B /* FloresDeAcuarelaApp.swift */; };
+		39B510012C123AB500019F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B510002C123AB500019F5B /* Assets.xcassets */; };
+		39B510042C123AB500019F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B510032C123AB500019F5B /* Preview Assets.xcassets */; };
+		39B510062C123AB500019F5B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B510052C123AB500019F5B /* Persistence.swift */; };
+		39B510092C123AB500019F5B /* FloresDeAcuarela.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39B510072C123AB500019F5B /* FloresDeAcuarela.xcdatamodeld */; };
+		39B510132C123AB500019F5B /* FloresDeAcuarelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B510122C123AB500019F5B /* FloresDeAcuarelaTests.swift */; };
+		39B5101D2C123AB500019F5B /* FloresDeAcuarelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5101C2C123AB500019F5B /* FloresDeAcuarelaUITests.swift */; };
+		39B5101F2C123AB500019F5B /* FloresDeAcuarelaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5101E2C123AB500019F5B /* FloresDeAcuarelaUITestsLaunchTests.swift */; };
+		39B510302C123C7500019F5B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B5102F2C123C7500019F5B /* HomeView.swift */; };
+		39B510322C12449800019F5B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B510312C12449800019F5B /* WebView.swift */; };
+		39DCA6262C185B9A00A5A62B /* TabItemComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA6252C185B9A00A5A62B /* TabItemComponent.swift */; };
+		39DCA62C2C185FE500A5A62B /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA62B2C185FE500A5A62B /* BudgetView.swift */; };
+		39DCA62F2C18609700A5A62B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA62E2C18609700A5A62B /* HistoryView.swift */; };
+		39DCA6312C186B1200A5A62B /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA6302C186B1200A5A62B /* BudgetViewModel.swift */; };
+		39DCA6332C186B4E00A5A62B /* BudgetWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DCA6322C186B4E00A5A62B /* BudgetWireframe.swift */; };
+		39FCAD2E2C18B6C20057CB41 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FCAD2D2C18B6C20057CB41 /* HeaderView.swift */; };
+		39FCAD302C18B88C0057CB41 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FCAD2F2C18B88C0057CB41 /* ResultView.swift */; };
+		39FCAD322C18BB400057CB41 /* ObjectPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FCAD312C18BB400057CB41 /* ObjectPriceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39B5100F2C123AB500019F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39B50FF12C123AB200019F5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39B50FF82C123AB200019F5B;
+			remoteInfo = FloresDeAcuarela;
+		};
+		39B510192C123AB500019F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39B50FF12C123AB200019F5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39B50FF82C123AB200019F5B;
+			remoteInfo = FloresDeAcuarela;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		396735582C21E662004E4F15 /* FlowerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerItem.swift; sourceTree = "<group>"; };
+		3967355B2C21F1A5004E4F15 /* ItemSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSelectorView.swift; sourceTree = "<group>"; };
+		398E0A542C26C890000179C1 /* WebViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewer.swift; sourceTree = "<group>"; };
+		398E0A562C26C97C000179C1 /* WebViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewModel.swift; sourceTree = "<group>"; };
+		398E0A582C26C9F9000179C1 /* WebViewWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewWireframe.swift; sourceTree = "<group>"; };
+		39B50FF92C123AB200019F5B /* FloresDeAcuarela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloresDeAcuarela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B50FFC2C123AB200019F5B /* FloresDeAcuarelaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloresDeAcuarelaApp.swift; sourceTree = "<group>"; };
+		39B510002C123AB500019F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39B510032C123AB500019F5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39B510052C123AB500019F5B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		39B510082C123AB500019F5B /* FloresDeAcuarela.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FloresDeAcuarela.xcdatamodel; sourceTree = "<group>"; };
+		39B5100E2C123AB500019F5B /* FloresDeAcuarelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloresDeAcuarelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B510122C123AB500019F5B /* FloresDeAcuarelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloresDeAcuarelaTests.swift; sourceTree = "<group>"; };
+		39B510182C123AB500019F5B /* FloresDeAcuarelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloresDeAcuarelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B5101C2C123AB500019F5B /* FloresDeAcuarelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloresDeAcuarelaUITests.swift; sourceTree = "<group>"; };
+		39B5101E2C123AB500019F5B /* FloresDeAcuarelaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloresDeAcuarelaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39B5102F2C123C7500019F5B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		39B510312C12449800019F5B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		39DCA6252C185B9A00A5A62B /* TabItemComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemComponent.swift; sourceTree = "<group>"; };
+		39DCA62B2C185FE500A5A62B /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		39DCA62E2C18609700A5A62B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		39DCA6302C186B1200A5A62B /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
+		39DCA6322C186B4E00A5A62B /* BudgetWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetWireframe.swift; sourceTree = "<group>"; };
+		39FCAD2D2C18B6C20057CB41 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		39FCAD2F2C18B88C0057CB41 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		39FCAD312C18BB400057CB41 /* ObjectPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectPriceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39B50FF62C123AB200019F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B5100B2C123AB500019F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B510152C123AB500019F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3967355A2C21EFC9004E4F15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				396735582C21E662004E4F15 /* FlowerItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3967355F2C21F3A8004E4F15 /* ItemSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				3967355B2C21F1A5004E4F15 /* ItemSelectorView.swift */,
+			);
+			path = ItemSelectorView;
+			sourceTree = "<group>";
+		};
+		39B50FF02C123AB200019F5B = {
+			isa = PBXGroup;
+			children = (
+				39B50FFB2C123AB200019F5B /* FloresDeAcuarela */,
+				39B510112C123AB500019F5B /* FloresDeAcuarelaTests */,
+				39B5101B2C123AB500019F5B /* FloresDeAcuarelaUITests */,
+				39B50FFA2C123AB200019F5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39B50FFA2C123AB200019F5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39B50FF92C123AB200019F5B /* FloresDeAcuarela.app */,
+				39B5100E2C123AB500019F5B /* FloresDeAcuarelaTests.xctest */,
+				39B510182C123AB500019F5B /* FloresDeAcuarelaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39B50FFB2C123AB200019F5B /* FloresDeAcuarela */ = {
+			isa = PBXGroup;
+			children = (
+				39B5102C2C123AD300019F5B /* App */,
+				39B5102D2C123AE400019F5B /* Data */,
+				39B5102B2C123AC600019F5B /* Presentation */,
+				39B510002C123AB500019F5B /* Assets.xcassets */,
+				39B510022C123AB500019F5B /* Preview Content */,
+			);
+			path = FloresDeAcuarela;
+			sourceTree = "<group>";
+		};
+		39B510022C123AB500019F5B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39B510032C123AB500019F5B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39B510112C123AB500019F5B /* FloresDeAcuarelaTests */ = {
+			isa = PBXGroup;
+			children = (
+				39B510122C123AB500019F5B /* FloresDeAcuarelaTests.swift */,
+			);
+			path = FloresDeAcuarelaTests;
+			sourceTree = "<group>";
+		};
+		39B5101B2C123AB500019F5B /* FloresDeAcuarelaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39B5101C2C123AB500019F5B /* FloresDeAcuarelaUITests.swift */,
+				39B5101E2C123AB500019F5B /* FloresDeAcuarelaUITestsLaunchTests.swift */,
+			);
+			path = FloresDeAcuarelaUITests;
+			sourceTree = "<group>";
+		};
+		39B5102B2C123AC600019F5B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				39FCAD2C2C18B6A00057CB41 /* Components */,
+				39DCA6242C185B7700A5A62B /* HomeView */,
+				39DCA6272C185DE700A5A62B /* WebView */,
+				39DCA62A2C185E0F00A5A62B /* BudgetView */,
+				3967355F2C21F3A8004E4F15 /* ItemSelectorView */,
+				39DCA62D2C18607C00A5A62B /* HistoryView */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		39B5102C2C123AD300019F5B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				39B50FFC2C123AB200019F5B /* FloresDeAcuarelaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		39B5102D2C123AE400019F5B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3967355A2C21EFC9004E4F15 /* Models */,
+				39B5102E2C123B0F00019F5B /* Local */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		39B5102E2C123B0F00019F5B /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				39B510052C123AB500019F5B /* Persistence.swift */,
+				39B510072C123AB500019F5B /* FloresDeAcuarela.xcdatamodeld */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		39DCA6242C185B7700A5A62B /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				39B5102F2C123C7500019F5B /* HomeView.swift */,
+				39DCA6252C185B9A00A5A62B /* TabItemComponent.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		39DCA6272C185DE700A5A62B /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				39B510312C12449800019F5B /* WebView.swift */,
+				398E0A562C26C97C000179C1 /* WebViewViewModel.swift */,
+				398E0A582C26C9F9000179C1 /* WebViewWireframe.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		39DCA62A2C185E0F00A5A62B /* BudgetView */ = {
+			isa = PBXGroup;
+			children = (
+				39DCA62B2C185FE500A5A62B /* BudgetView.swift */,
+				39DCA6302C186B1200A5A62B /* BudgetViewModel.swift */,
+				39DCA6322C186B4E00A5A62B /* BudgetWireframe.swift */,
+			);
+			path = BudgetView;
+			sourceTree = "<group>";
+		};
+		39DCA62D2C18607C00A5A62B /* HistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				39DCA62E2C18609700A5A62B /* HistoryView.swift */,
+			);
+			path = HistoryView;
+			sourceTree = "<group>";
+		};
+		39FCAD2C2C18B6A00057CB41 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				39FCAD2D2C18B6C20057CB41 /* HeaderView.swift */,
+				39FCAD2F2C18B88C0057CB41 /* ResultView.swift */,
+				39FCAD312C18BB400057CB41 /* ObjectPriceView.swift */,
+				398E0A542C26C890000179C1 /* WebViewer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39B50FF82C123AB200019F5B /* FloresDeAcuarela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B510222C123AB500019F5B /* Build configuration list for PBXNativeTarget "FloresDeAcuarela" */;
+			buildPhases = (
+				39B50FF52C123AB200019F5B /* Sources */,
+				39B50FF62C123AB200019F5B /* Frameworks */,
+				39B50FF72C123AB200019F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloresDeAcuarela;
+			productName = FloresDeAcuarela;
+			productReference = 39B50FF92C123AB200019F5B /* FloresDeAcuarela.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39B5100D2C123AB500019F5B /* FloresDeAcuarelaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B510252C123AB500019F5B /* Build configuration list for PBXNativeTarget "FloresDeAcuarelaTests" */;
+			buildPhases = (
+				39B5100A2C123AB500019F5B /* Sources */,
+				39B5100B2C123AB500019F5B /* Frameworks */,
+				39B5100C2C123AB500019F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39B510102C123AB500019F5B /* PBXTargetDependency */,
+			);
+			name = FloresDeAcuarelaTests;
+			productName = FloresDeAcuarelaTests;
+			productReference = 39B5100E2C123AB500019F5B /* FloresDeAcuarelaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39B510172C123AB500019F5B /* FloresDeAcuarelaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B510282C123AB500019F5B /* Build configuration list for PBXNativeTarget "FloresDeAcuarelaUITests" */;
+			buildPhases = (
+				39B510142C123AB500019F5B /* Sources */,
+				39B510152C123AB500019F5B /* Frameworks */,
+				39B510162C123AB500019F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39B5101A2C123AB500019F5B /* PBXTargetDependency */,
+			);
+			name = FloresDeAcuarelaUITests;
+			productName = FloresDeAcuarelaUITests;
+			productReference = 39B510182C123AB500019F5B /* FloresDeAcuarelaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39B50FF12C123AB200019F5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					39B50FF82C123AB200019F5B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					39B5100D2C123AB500019F5B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 39B50FF82C123AB200019F5B;
+					};
+					39B510172C123AB500019F5B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 39B50FF82C123AB200019F5B;
+					};
+				};
+			};
+			buildConfigurationList = 39B50FF42C123AB200019F5B /* Build configuration list for PBXProject "FloresDeAcuarela" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39B50FF02C123AB200019F5B;
+			productRefGroup = 39B50FFA2C123AB200019F5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39B50FF82C123AB200019F5B /* FloresDeAcuarela */,
+				39B5100D2C123AB500019F5B /* FloresDeAcuarelaTests */,
+				39B510172C123AB500019F5B /* FloresDeAcuarelaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39B50FF72C123AB200019F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B510042C123AB500019F5B /* Preview Assets.xcassets in Resources */,
+				39B510012C123AB500019F5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B5100C2C123AB500019F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B510162C123AB500019F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39B50FF52C123AB200019F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B510062C123AB500019F5B /* Persistence.swift in Sources */,
+				39DCA62F2C18609700A5A62B /* HistoryView.swift in Sources */,
+				39DCA6262C185B9A00A5A62B /* TabItemComponent.swift in Sources */,
+				39FCAD322C18BB400057CB41 /* ObjectPriceView.swift in Sources */,
+				39DCA6332C186B4E00A5A62B /* BudgetWireframe.swift in Sources */,
+				39B50FFD2C123AB200019F5B /* FloresDeAcuarelaApp.swift in Sources */,
+				39FCAD302C18B88C0057CB41 /* ResultView.swift in Sources */,
+				39B510322C12449800019F5B /* WebView.swift in Sources */,
+				398E0A592C26C9F9000179C1 /* WebViewWireframe.swift in Sources */,
+				39DCA62C2C185FE500A5A62B /* BudgetView.swift in Sources */,
+				39FCAD2E2C18B6C20057CB41 /* HeaderView.swift in Sources */,
+				398E0A572C26C97C000179C1 /* WebViewViewModel.swift in Sources */,
+				398E0A552C26C890000179C1 /* WebViewer.swift in Sources */,
+				396735592C21E662004E4F15 /* FlowerItem.swift in Sources */,
+				39DCA6312C186B1200A5A62B /* BudgetViewModel.swift in Sources */,
+				39B510302C123C7500019F5B /* HomeView.swift in Sources */,
+				39B510092C123AB500019F5B /* FloresDeAcuarela.xcdatamodeld in Sources */,
+				3967355C2C21F1A5004E4F15 /* ItemSelectorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B5100A2C123AB500019F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B510132C123AB500019F5B /* FloresDeAcuarelaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B510142C123AB500019F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B5101F2C123AB500019F5B /* FloresDeAcuarelaUITestsLaunchTests.swift in Sources */,
+				39B5101D2C123AB500019F5B /* FloresDeAcuarelaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39B510102C123AB500019F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39B50FF82C123AB200019F5B /* FloresDeAcuarela */;
+			targetProxy = 39B5100F2C123AB500019F5B /* PBXContainerItemProxy */;
+		};
+		39B5101A2C123AB500019F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39B50FF82C123AB200019F5B /* FloresDeAcuarela */;
+			targetProxy = 39B510192C123AB500019F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39B510202C123AB500019F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39B510212C123AB500019F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39B510232C123AB500019F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloresDeAcuarela/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pabloMarke.FloresDeAcuarela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39B510242C123AB500019F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloresDeAcuarela/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pabloMarke.FloresDeAcuarela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39B510262C123AB500019F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pabloMarke.FloresDeAcuarelaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloresDeAcuarela.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FloresDeAcuarela";
+			};
+			name = Debug;
+		};
+		39B510272C123AB500019F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pabloMarke.FloresDeAcuarelaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloresDeAcuarela.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FloresDeAcuarela";
+			};
+			name = Release;
+		};
+		39B510292C123AB500019F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pabloMarke.FloresDeAcuarelaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloresDeAcuarela;
+			};
+			name = Debug;
+		};
+		39B5102A2C123AB500019F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pabloMarke.FloresDeAcuarelaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloresDeAcuarela;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39B50FF42C123AB200019F5B /* Build configuration list for PBXProject "FloresDeAcuarela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B510202C123AB500019F5B /* Debug */,
+				39B510212C123AB500019F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B510222C123AB500019F5B /* Build configuration list for PBXNativeTarget "FloresDeAcuarela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B510232C123AB500019F5B /* Debug */,
+				39B510242C123AB500019F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B510252C123AB500019F5B /* Build configuration list for PBXNativeTarget "FloresDeAcuarelaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B510262C123AB500019F5B /* Debug */,
+				39B510272C123AB500019F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39B510282C123AB500019F5B /* Build configuration list for PBXNativeTarget "FloresDeAcuarelaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39B510292C123AB500019F5B /* Debug */,
+				39B5102A2C123AB500019F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39B510072C123AB500019F5B /* FloresDeAcuarela.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39B510082C123AB500019F5B /* FloresDeAcuarela.xcdatamodel */,
+			);
+			currentVersion = 39B510082C123AB500019F5B /* FloresDeAcuarela.xcdatamodel */;
+			path = FloresDeAcuarela.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39B50FF12C123AB200019F5B /* Project object */;
+}
