@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ItemSelectorView: View {
-   @ObservedObject var viewModel: BudgetViewModel
+    @ObservedObject var viewModel: BudgetViewModel
+    @State private var selected = "Hogar"
     
     var body: some View {
+        Picker("Selecciona categoría",
+               selection: $selected) {
+            ForEach(viewModel.categories,
+                    id: \.self) { categorie in
+                Text(categorie).tag(categorie)
+            }
+        }
+               .pickerStyle(SegmentedPickerStyle())
+               .padding()
         TextField("name",
                   text: $viewModel.itemName)
         TextField("price",
