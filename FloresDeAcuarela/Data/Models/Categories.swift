@@ -8,12 +8,13 @@
 import Foundation
 
 enum Categories: String, CaseIterable {
-    case Regalos = "Regalos"
-    case Tocados = "Tocados"
-    case Basicos = "Básicos"
-    case Hogar = "Hogar"
-    case PlantLovers = "Plant lovers"
-    case OUTLET = "OUTLET"
+    case regalos = "Regalos"
+    case tocados = "Tocados"
+    case basicos = "Básicos"
+    case hogar = "Hogar"
+    case plantLovers = "Plant lovers"
+    case outlet = "OUTLET"
+    case ramo = "Ramo"
     
     var description: String {
         return rawValue

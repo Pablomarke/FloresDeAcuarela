@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ItemSelectorView: View {
     @ObservedObject var viewModel: BudgetViewModel
-    @State private var selected = Categories.Regalos.rawValue
+    @State private var selected = Categories.regalos.rawValue
     
     var body: some View {
         Picker("Selecciona categoría",
@@ -23,17 +23,21 @@ struct ItemSelectorView: View {
                .padding()
         Spacer()
         switch selected {
-            case Categories.Basicos.rawValue:
+            case Categories.ramo.rawValue:
+                BouquetView(size: $viewModel.size,
+                            quality: $viewModel.quality,
+                            viewModel: viewModel)
+            case Categories.basicos.rawValue:
                 BasicsView()
-            case Categories.Hogar.rawValue:
+            case Categories.hogar.rawValue:
                 HomesView()
-            case Categories.OUTLET.rawValue:
+            case Categories.outlet.rawValue:
                 OutletView()
-            case Categories.PlantLovers.rawValue:
+            case Categories.plantLovers.rawValue:
                 PlantLoverView()
-            case Categories.Tocados.rawValue:
+            case Categories.tocados.rawValue:
                 HeaddressesView()
-            case Categories.Regalos.rawValue:
+            case Categories.regalos.rawValue:
                 GiftsView()
             default:
                 BasicsView()
@@ -45,15 +49,14 @@ struct ItemSelectorView: View {
                   text: $viewModel.itemPrice)
         TextField("amount",
                   text: $viewModel.itemAmount)
-        
         Button("Añadir") {
             viewModel.addItem()
         }
         .padding(.bottom)
     }
 }
-
-#Preview {
-    ItemSelectorView(viewModel: BudgetViewModel())
-}
+/*
+ #Preview {
+ ItemSelectorView(viewModel: BudgetViewModel())
+ }*/
 
