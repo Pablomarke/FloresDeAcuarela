@@ -12,12 +12,13 @@ final class BudgetViewModel: ObservableObject {
     @Published var items: FlowerItemList = .init()
     @Published var itemName: String = .init()
     @Published var itemPrice: String = .init()
-    let categories = ["Regalos", "Tocados", "Básicos", "Hogar", "Plant lovers", "OUTLET"]
+    @Published var itemAmount: String = .init()
     
     func addItem() {
-        if let price = Double(itemPrice) {
+        if let price = Double(itemPrice), let amount = Int(itemAmount) {
             items.append(FlowerItem(name: itemName,
-                                    price: price))
+                                    price: price, 
+                                    amount: amount))
             self.total =  self.calculateTotal()
             self.cleanItems()
         }
@@ -26,7 +27,7 @@ final class BudgetViewModel: ObservableObject {
 
 private extension BudgetViewModel {
     func calculateTotal() -> Double {
-        self.items.reduce(0) { $0 + $1.price }
+        self.items.reduce(0) { ($0 + $1.price) * Double($1.amount) }
     }
     
     func cleanItems() {

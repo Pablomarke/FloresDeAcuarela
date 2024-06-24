@@ -12,6 +12,13 @@
 		398E0A552C26C890000179C1 /* WebViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A542C26C890000179C1 /* WebViewer.swift */; };
 		398E0A572C26C97C000179C1 /* WebViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A562C26C97C000179C1 /* WebViewViewModel.swift */; };
 		398E0A592C26C9F9000179C1 /* WebViewWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A582C26C9F9000179C1 /* WebViewWireframe.swift */; };
+		398E0A5B2C296FFE000179C1 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A5A2C296FFE000179C1 /* Categories.swift */; };
+		398E0A5E2C298C63000179C1 /* OutletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A5D2C298C63000179C1 /* OutletView.swift */; };
+		398E0A602C298C7B000179C1 /* BasicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A5F2C298C7B000179C1 /* BasicsView.swift */; };
+		398E0A622C298CF3000179C1 /* HeaddressesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A612C298CF3000179C1 /* HeaddressesView.swift */; };
+		398E0A642C298D0B000179C1 /* GiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A632C298D0B000179C1 /* GiftsView.swift */; };
+		398E0A662C298D32000179C1 /* PlantLoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A652C298D32000179C1 /* PlantLoverView.swift */; };
+		398E0A682C298D70000179C1 /* HomesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E0A672C298D70000179C1 /* HomesView.swift */; };
 		39B50FFD2C123AB200019F5B /* FloresDeAcuarelaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B50FFC2C123AB200019F5B /* FloresDeAcuarelaApp.swift */; };
 		39B510012C123AB500019F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B510002C123AB500019F5B /* Assets.xcassets */; };
 		39B510042C123AB500019F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B510032C123AB500019F5B /* Preview Assets.xcassets */; };
@@ -55,6 +62,13 @@
 		398E0A542C26C890000179C1 /* WebViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewer.swift; sourceTree = "<group>"; };
 		398E0A562C26C97C000179C1 /* WebViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewModel.swift; sourceTree = "<group>"; };
 		398E0A582C26C9F9000179C1 /* WebViewWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewWireframe.swift; sourceTree = "<group>"; };
+		398E0A5A2C296FFE000179C1 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		398E0A5D2C298C63000179C1 /* OutletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutletView.swift; sourceTree = "<group>"; };
+		398E0A5F2C298C7B000179C1 /* BasicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsView.swift; sourceTree = "<group>"; };
+		398E0A612C298CF3000179C1 /* HeaddressesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaddressesView.swift; sourceTree = "<group>"; };
+		398E0A632C298D0B000179C1 /* GiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftsView.swift; sourceTree = "<group>"; };
+		398E0A652C298D32000179C1 /* PlantLoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantLoverView.swift; sourceTree = "<group>"; };
+		398E0A672C298D70000179C1 /* HomesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomesView.swift; sourceTree = "<group>"; };
 		39B50FF92C123AB200019F5B /* FloresDeAcuarela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloresDeAcuarela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B50FFC2C123AB200019F5B /* FloresDeAcuarelaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloresDeAcuarelaApp.swift; sourceTree = "<group>"; };
 		39B510002C123AB500019F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				396735582C21E662004E4F15 /* FlowerItem.swift */,
+				398E0A5A2C296FFE000179C1 /* Categories.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -117,6 +132,19 @@
 				3967355B2C21F1A5004E4F15 /* ItemSelectorView.swift */,
 			);
 			path = ItemSelectorView;
+			sourceTree = "<group>";
+		};
+		398E0A5C2C298C2B000179C1 /* CategoriesComponent */ = {
+			isa = PBXGroup;
+			children = (
+				398E0A632C298D0B000179C1 /* GiftsView.swift */,
+				398E0A612C298CF3000179C1 /* HeaddressesView.swift */,
+				398E0A5F2C298C7B000179C1 /* BasicsView.swift */,
+				398E0A672C298D70000179C1 /* HomesView.swift */,
+				398E0A652C298D32000179C1 /* PlantLoverView.swift */,
+				398E0A5D2C298C63000179C1 /* OutletView.swift */,
+			);
+			path = CategoriesComponent;
 			sourceTree = "<group>";
 		};
 		39B50FF02C123AB200019F5B = {
@@ -184,6 +212,7 @@
 				39DCA6272C185DE700A5A62B /* WebView */,
 				39DCA62A2C185E0F00A5A62B /* BudgetView */,
 				3967355F2C21F3A8004E4F15 /* ItemSelectorView */,
+				398E0A5C2C298C2B000179C1 /* CategoriesComponent */,
 				39DCA62D2C18607C00A5A62B /* HistoryView */,
 			);
 			path = Presentation;
@@ -394,19 +423,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				39B510062C123AB500019F5B /* Persistence.swift in Sources */,
+				398E0A662C298D32000179C1 /* PlantLoverView.swift in Sources */,
 				39DCA62F2C18609700A5A62B /* HistoryView.swift in Sources */,
 				39DCA6262C185B9A00A5A62B /* TabItemComponent.swift in Sources */,
 				39FCAD322C18BB400057CB41 /* ObjectPriceView.swift in Sources */,
+				398E0A682C298D70000179C1 /* HomesView.swift in Sources */,
 				39DCA6332C186B4E00A5A62B /* BudgetWireframe.swift in Sources */,
 				39B50FFD2C123AB200019F5B /* FloresDeAcuarelaApp.swift in Sources */,
 				39FCAD302C18B88C0057CB41 /* ResultView.swift in Sources */,
+				398E0A642C298D0B000179C1 /* GiftsView.swift in Sources */,
+				398E0A5E2C298C63000179C1 /* OutletView.swift in Sources */,
 				39B510322C12449800019F5B /* WebView.swift in Sources */,
 				398E0A592C26C9F9000179C1 /* WebViewWireframe.swift in Sources */,
+				398E0A5B2C296FFE000179C1 /* Categories.swift in Sources */,
 				39DCA62C2C185FE500A5A62B /* BudgetView.swift in Sources */,
+				398E0A622C298CF3000179C1 /* HeaddressesView.swift in Sources */,
 				39FCAD2E2C18B6C20057CB41 /* HeaderView.swift in Sources */,
 				398E0A572C26C97C000179C1 /* WebViewViewModel.swift in Sources */,
 				398E0A552C26C890000179C1 /* WebViewer.swift in Sources */,
 				396735592C21E662004E4F15 /* FlowerItem.swift in Sources */,
+				398E0A602C298C7B000179C1 /* BasicsView.swift in Sources */,
 				39DCA6312C186B1200A5A62B /* BudgetViewModel.swift in Sources */,
 				39B510302C123C7500019F5B /* HomeView.swift in Sources */,
 				39B510092C123AB500019F5B /* FloresDeAcuarela.xcdatamodeld in Sources */,

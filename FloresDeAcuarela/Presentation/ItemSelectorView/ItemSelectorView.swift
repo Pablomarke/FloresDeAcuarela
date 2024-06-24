@@ -9,32 +9,51 @@ import SwiftUI
 
 struct ItemSelectorView: View {
     @ObservedObject var viewModel: BudgetViewModel
-    @State private var selected = "Hogar"
+    @State private var selected = Categories.Regalos.rawValue
     
     var body: some View {
         Picker("Selecciona categoría",
                selection: $selected) {
-            ForEach(viewModel.categories,
+            ForEach(Categories.allCases,
                     id: \.self) { categorie in
-                Text(categorie).tag(categorie)
+                Text(categorie.rawValue).tag(categorie.rawValue)
             }
         }
                .pickerStyle(SegmentedPickerStyle())
                .padding()
+        Spacer()
+        switch selected {
+            case Categories.Basicos.rawValue:
+                BasicsView()
+            case Categories.Hogar.rawValue:
+                HomesView()
+            case Categories.OUTLET.rawValue:
+                OutletView()
+            case Categories.PlantLovers.rawValue:
+                PlantLoverView()
+            case Categories.Tocados.rawValue:
+                HeaddressesView()
+            case Categories.Regalos.rawValue:
+                GiftsView()
+            default:
+                BasicsView()
+        }
+        Spacer()
         TextField("name",
                   text: $viewModel.itemName)
         TextField("price",
                   text: $viewModel.itemPrice)
+        TextField("amount",
+                  text: $viewModel.itemAmount)
         
         Button("Añadir") {
             viewModel.addItem()
         }
+        .padding(.bottom)
     }
 }
 
-struct ItemSelectorView_Previews: PreviewProvider {
-    static var previews: some View {
-        let viewModel = BudgetViewModel()
-        return ItemSelectorView(viewModel: viewModel)
-    }
+#Preview {
+    ItemSelectorView(viewModel: BudgetViewModel())
 }
+
