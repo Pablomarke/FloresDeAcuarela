@@ -8,8 +8,9 @@
 import SwiftUI
 
 protocol ObjectSalable {
-    var name: String {get}
-    var price: Double {get}
+    var name: String { get }
+    var price: Double { get }
+    var amount: Int { get }
 }
 
 struct ObjectPriceView: View {
@@ -20,9 +21,11 @@ struct ObjectPriceView: View {
             Text(object.name)
                 .padding()
             Spacer()
-            Text("\(object.price) €")
+            Text("X \(object.amount) Uds.")
                 .padding()
             Spacer()
+            Text("\(object.price) €")
+                .padding()
         }
     }
 }

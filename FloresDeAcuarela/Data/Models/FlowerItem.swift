@@ -13,4 +13,5 @@ struct FlowerItem: Identifiable, ObjectSalable {
     let id = UUID()
     let name: String
     let price: Double
+    let amount: Int
 }
